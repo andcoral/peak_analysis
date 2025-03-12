@@ -26,7 +26,7 @@ El proyecto busca automatizar la extracción y el análisis de secuencias genóm
     -   Añadir un argumento para especificar el directorio de salida donde se almacenarán los archivos generados.
 2.  **Extracción y Procesamiento de Secuencias:**
     
-    -   Leer el archivo de picos para obtener las posiciones de inicio y fin de los picos asociados a cada `TF_name`.
+    -   Leer el archivo de picos para obtener las posiciones de inicio y fin de los picos asociados a cada `TF_name`. Sin olvidar verificar que las coordenadas de dichas posiciones estén dentro del rango del genoma dado.
     -   Extraer las secuencias desde el archivo FASTA del genoma utilizando las coordenadas `Peak_start` y `Peak_end`, asegurándose de considerar solamente la cadena forward.
 3.  **Generación de Archivos FASTA:**
     
