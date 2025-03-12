@@ -184,8 +184,9 @@ Este archivo contiene información crucial sobre las regiones de unión de los 1
 1. Inicio
 2. Leer todos los archivos FASTA en el directorio
 3. Para cada archivo FASTA:
-   a. Formar comando: meme <archivo_fasta> -oc <nombre_directorio> ... 
-   b. Imprimir comando
+   a. Verificar que el archivo exista y no esté vacío.
+   b. Formar comando: meme <archivo_fasta> -oc <nombre_directorio> ... 
+   c. Imprimir comando
 4. Redireccionar salida a un archivo script: run_meme.sh
 5. Fin
 ```
