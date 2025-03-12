@@ -54,3 +54,21 @@ ls
 log.out
 fasta_peaks/
 ```
+
+4. **Caso: Formato de archivo de picos incorrecto.**
+
+    - **Entradas:**
+        - Archivo de picos con un formato incorrecto (como: columnas mal ordenadas o valores no numéricos en las posiciones Peak_start y Peak_end).
+        - Archivo de genoma válido.
+        - Directorio de salida.
+    
+    - **Esperado:**
+        - El sistema debe generar un mensaje de error especificando qué está mal en el archivo de picos.
+            "Error: Invalid format in peak file at line 3."
+
+```python
+mk_fasta_from_peaks.py -i invalid_format_peak_file.txt -g Ecoli.fna -o fasta_peaks/
+```
+```bash
+Error: Invalid format in peak file at line 7: Peak_start must be an integer.
+```
