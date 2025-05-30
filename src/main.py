@@ -1,5 +1,5 @@
 """
-Punto de entrada del programa
+Punto de entrada del programa, hace llamada de modulos.
 """
 
 def main():

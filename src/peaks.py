@@ -1,5 +1,6 @@
 """
-Funciones para procesar el archivo de picos
+Funciones para procesar el archivo de picos y la extracción de secuencias genómicas correspondientes a sitios de unión 
+de TFs. 
 """
 
 import csv
