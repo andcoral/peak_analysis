@@ -1,5 +1,5 @@
 """
- Funciones relacionadas con la lectura del genoma
+ Función relacionada con la lectura del genoma. Vuelve al archivo dado en una sola línea.
  """
 
 def cargar_genoma(fasta_path):
