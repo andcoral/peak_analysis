@@ -24,6 +24,18 @@ Contiene información sobre las regiones de unión de los 144 factores de transc
 ### Genoma Completo de E. coli
 Disponible en formato FASTA.
 
+## Instalación y Uso
+1. Clonar el repositorio
+
+```bash
+git clone https://github.com/andcoral/peak_analysis.git
+cd peak_analysis
+```
+
+2. Requisitos
+
+Este proyecto está desarrollado en Python 3.8 o superior y no requiere bibliotecas externas, ya que utiliza únicamente módulos estándar.
+
 ## Objetivos del Proyecto
 
 ### Generación de Archivos FASTA
@@ -61,3 +73,7 @@ Para asegurar la calidad y mantenibilidad del software, el proyecto seguirá est
 2. **Automatización del Análisis con `meme`**: Scripting del proceso de ejecución del análisis de motivos para cada TF.
 3. **Integración y Pruebas**: Combinación de los módulos desarrollados y realización de pruebas integrales para asegurar la funcionalidad.
 4. **Despliegue y Capacitación**: Implementación del sistema en el servidor del colaborador y capacitación de usuarios sobre su uso.
+
+## Licencia
+
+Este proyecto se distribuye bajo la licencia MIT.

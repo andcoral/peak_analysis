@@ -15,7 +15,7 @@ def guardar_fasta_por_tf(secuencias_por_tf, output_dir): # Parametos: diccionari
         file_path = os.path.join(output_dir, f"{tf}.fa") # Ruta y nombre del archivo a crear
         try: # Precaucion permisos
             with open(file_path, 'w') as file:
-                for header, secuencia in secuencias:
+                for header, secuencia in secuencias: # Saca tupla por tupla
                     file.write(f">{header}\n")
                     file.write(f"{secuencia}\n")
         except IOError:
